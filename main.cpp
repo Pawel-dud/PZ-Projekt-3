@@ -11,4 +11,12 @@ int main() {
         cout << tab[i] << " ";
     }
     cout << endl;
+
+      MS.start(tab, rozmiar);
+
+    cout << "Tablica po sortowaniu: ";
+     for (int i = 0; i < rozmiar; i++) {
+         cout << tab[i] << " ";
+     }
+     cout << endl;
 }
