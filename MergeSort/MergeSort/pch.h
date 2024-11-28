@@ -1,4 +1,4 @@
-/// @file pch.h Plik zawieraj¹cy klasê
+/// @file pch.h Plik zawierajacy klase
 
 //
 // pch.h
@@ -15,8 +15,8 @@ using namespace std;
 /// @brief Klasa Sorter oraz deklaracje jej metod
 class Sorter {
 private:
-	string* tab;///< wskaŸnik do Zmiennej zawieraj¹cej nieposortowan¹ tablicê typu string
-	int* tabs;///< wskaŸnik do tablicy zawieraj¹cej posortowan¹ tablicê tab
+	string* tab;///< wskaznik do Zmiennej zawierajacej nieposortowana tablice typu string
+	int* tabs;///< wskaznik do tablicy zawierajacej posortowana tablice tab
 public:
 
 	Sorter(string a);
